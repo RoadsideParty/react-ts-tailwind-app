@@ -1,9 +1,10 @@
 // import React from 'react';
+import Head from './components/Head'
 
 function App() {
   return (
-    <div className="b">
-      <span className="text-blue-900">hello world</span>
+    <div style={{ width: '1920px' }}>
+      <Head />
     </div>
   );
 }
